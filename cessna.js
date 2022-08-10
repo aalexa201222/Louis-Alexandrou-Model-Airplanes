@@ -19,6 +19,7 @@ var tl3= new TimelineMax();
 const controller= new ScrollMagic.Controller();
 
 if(window.screen.width>500){
+    console.log(window.screen.width);
     tl.from("#speech",2,{opacity:0});
     tl.from("#pic1",0.5,{x:-200, opacity:0});
     tl2.from("#pic2",0.5,{x:-200, opacity:0});

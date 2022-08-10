@@ -19,6 +19,7 @@ document.addEventListener("DOMContentLoaded",function(event){
         
         
         if(window.screen.width>500){ 
+            console.log(window.screen.width);
             tl.from("#pic1",0.5,{x:-200, opacity:0});
             tl.from("#speech",1,{x:200, opacity:0});
             tl2.from("#pic2",1,{x:-200, opacity:0});
