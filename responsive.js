@@ -52,8 +52,8 @@ function fadeImg(el, val, fade) {
 }
 
 var images = [], x = 0,y=0;
-images[0] = "https://scontent.fnic3-1.fna.fbcdn.net/v/t31.18172-8/13116519_530577517149878_5327009116593766039_o.jpg?_nc_cat=102&ccb=1-7&_nc_sid=e3f864&_nc_ohc=4sUrx0y9Y0EAX_sJSmP&_nc_ht=scontent.fnic3-1.fna&oh=00_AT8J4vnIaJMaCsZJyBZ-uDn6pny3Gjp-kJr18JkhNVwsJw&oe=63029CE4";
-images[1] = "https://scontent.fnic3-1.fna.fbcdn.net/v/t31.18172-8/23456260_780732372134390_8199535861932279724_o.jpg?_nc_cat=103&ccb=1-7&_nc_sid=e3f864&_nc_ohc=oEvzDk_4818AX9I-7ep&_nc_ht=scontent.fnic3-1.fna&oh=00_AT_hb7mSzhwCEoFVL2Jbz9wDXPRnnyGZW90CT4R5lNbt8A&oe=63036A16";
+images[0] = "images/main1.jpg";
+images[1] = "images/main2.jpg";
 console.log(images[0])
 p[0]=document.getElementById("pp")
 console.log(p[0].id)
